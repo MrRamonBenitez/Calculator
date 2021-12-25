@@ -11,7 +11,7 @@ public class Main {
         //                                  ArithmeticException
         double c = calc.devide.apply((double)a, (double)b);
 
-        if (c != calc.NaN)
+        if (c != calc.POSITIVE_INFINITY)
             calc.println.accept((int) c);
         else
             calc.printer.accept("Деление на ноль!");
